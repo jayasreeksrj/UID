@@ -1,0 +1,22 @@
+/* src/styles/Header.css */
+.header {
+  background-color: #4a90e2; /* Background color */
+  color: white; /* Text color */
+  text-align: center; /* Centered text */
+  padding: 20px; /* Padding for spacing */
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  height: 100px; /* Adjust height as needed */
+}
+
+.header h1 {
+  margin: 0; /* No margin for the header */
+  font-size: 2.5em; /* Font size for the main title */
+}
+
+.header p {
+  font-size: 1.2em; /* Font size for the tagline */
+  margin-top: 10px; /* Space between title and tagline */
+}

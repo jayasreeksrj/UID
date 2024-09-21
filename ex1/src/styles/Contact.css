@@ -1,0 +1,58 @@
+/* src/styles/Contact.css */
+.contact {
+  padding: 40px;
+  background-color: #eaeaea;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact p {
+  line-height: 1.6;
+  text-align: center;
+}
+
+.form-group {
+  margin: 15px 0; /* Spacing between form groups */
+}
+
+.form-group label {
+  display: block; /* Ensures labels are above the input */
+  margin-bottom: 5px; /* Spacing between label and input */
+  font-weight: bold; /* Makes labels stand out */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding for inputs */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.form-group textarea {
+  height: 100px; /* Set a height for the textarea */
+}
+
+button {
+  padding: 10px 15px; /* Button padding */
+  background-color: #4a90e2; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1em; /* Font size */
+}
+
+button:hover {
+  background-color: #357ab8; /* Darker shade on hover */
+}

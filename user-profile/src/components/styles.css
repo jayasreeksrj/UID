@@ -1,0 +1,126 @@
+/* General Container Styles */
+.profile {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #1976d2; /* Primary color from MUI theme */
+  }
+  
+  p, li, ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* List Styles */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Card Styles */
+  .MuiCard-root {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Avatar Styles */
+  .MuiAvatar-root {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border: 4px solid #1976d2; /* Matching the primary theme color */
+  }
+  
+  /* Typography Styles */
+  .MuiTypography-h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .MuiTypography-subtitle1 {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Flexbox Layout */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MuiCard-root img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Background Styles */
+  .background-image {
+    background-image: url('https://example.com/background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 768px) {
+    .MuiCard-root {
+      margin: 10px;
+    }
+  
+    .MuiAvatar-root {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  /* Add uniform styles for all cards */
+.MuiCard-root {
+    height: 150px; /* Set a base height for all cards */
+    max-width: 600px; /* Ensure a consistent width */
+    margin-bottom: 20px;
+  }
+  
+  .MuiCard-root .MuiCardContent-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Button styling for GitHub links */
+  .MuiButton-root {
+    margin-top: 15px;
+  }
+  /* Customize the skill cards */
+.skill-card {
+    height: 180px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .MuiLinearProgress-root {
+    height: 8px;
+    border-radius: 5px;
+  }
+  
